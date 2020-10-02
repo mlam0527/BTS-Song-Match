@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
-import OauthLoginForm from './oauth-login-form'
+// import OauthLoginForm from './oauth-login-form'
+import AddMusicMp3 from './AddMusicMp3'
 
 class Root extends Component {
   render() {
     return (
       <div>
-        <OauthLoginForm />
+        <AddMusicMp3 />
       </div>
     )
   }
